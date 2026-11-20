@@ -15,7 +15,7 @@ This release asset layout was designed in a way to make automated updates possib
 * On the SD card, create folder: `sdmc:/switch/nsmbw/games/`
 * In that folder, create another folder for each game you want to install (e.g. `vanilla` or `newersmbw`)
 * Copy the game NRO of the mod you want to that sub-folder and rename the file to `game.nro`
-* If one exists, extract the romfs resource pack (`*.romfs.zst`) for the mod using a ZSTD-capable extractor and copy the extracted `*.romfs` file into that sub-folder alongside the NRO.
+* If one exists, extract the romfs resource pack (`*.romfs.zst`) for the mod using a ZSTD-capable extractor and copy the extracted file into that sub-folder as `assets.romfs`. The launcher does this automatically.
 * Create folder `sdmc:/switch/nsmbw/banners/` and copy the PNG banner files for all mod packs you want to install into it. Rename the banner file names to remove `-banner` from their file names.
 
 ## Release assets
